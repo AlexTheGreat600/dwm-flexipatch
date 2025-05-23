@@ -148,9 +148,6 @@ enum {
 	SchemeHidNorm,
 	SchemeHidSel,
 	SchemeUrg,
-    #if BAR_LTSYMBOL_PATCH && BAR_LTSYMBOL_SCHEME_PATCH
-    SchemeLtSymbol,
-    #endif // BAR_LTSYMBOL_SCHEME_PATCH
 	#if RENAMED_SCRATCHPADS_PATCH
 	SchemeScratchSel,
 	SchemeScratchNorm,
